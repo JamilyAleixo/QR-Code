@@ -1,0 +1,43 @@
+/* Importa a fonte "PT Sans" do Google Fonts para uso no documento */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+/* Define um estilo base para todos os elementos HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo (body) do documento */
+body {
+  height: 100vh; /* Define a altura do corpo como 100% da altura da janela (viewport) */
+  display: flex; /* Usa um modelo flexbox para organizar elementos internos */
+  align-items: center; /* Centraliza verticalmente os elementos filhos */
+  justify-content: center; /* Centraliza horizontalmente os elementos filhos */
+  background-color: #f7f7f7; /* Define a cor de fundo */
+  font-family: "PT Sans", sans-serif; /* Define a fonte padrão para o texto */
+}
+
+/* Estilo para a seção principal (main) do documento */
+main {
+  display: flex; /* Usa um modelo flexbox para organizar elementos internos */
+  flex-direction: column; /* Define a orientação dos elementos filhos como coluna */
+  gap: 10px; /* Define um espaço entre os elementos filhos */
+  font-size: 130%; /* Define o tamanho da fonte em 130% do tamanho padrão */
+}
+
+/* Estilo para os campos de entrada (input) */
+input {
+  padding: 5px; /* Define o preenchimento interno */
+  width: 220px; /* Define a largura */
+  margin-bottom: 20px; /* Define a margem inferior */
+  font-size: 20px; /* Define o tamanho da fonte */
+  outline: 0; /* Remove a borda de foco padrão */
+}
+
+/* Estilo para a classe "content" */
+.content {
+  display: flex; /* Usa um modelo flexbox para organizar elementos internos */
+  flex-direction: column; /* Define a orientação dos elementos filhos como coluna */
+  align-items: center; /* Centraliza verticalmente os elementos filhos */
+}
